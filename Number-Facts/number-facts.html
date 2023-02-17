@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="number-facts.css">
+  <title>Number Facts</title>
+</head>
+<body>
+  <h1>Number Facts!</h1>
+
+  <h2>Get a Fact About Your Favorite Number:</h2>
+  <div class="form-group">
+    <label for="single-number">Favorite Number:</label>
+    <div>
+      <input type="number" id="single-input">
+    </div>
+    <div>
+      <button type="button" id="submit-single" class="submit-button">Get Fact</button>
+    </div>
+  </div>
+  <p id="single-number-display"></p>
+
+  <h2>Get Facts About Several Numbers:</h2>
+  <div class="form-group">
+    <label>Numbers:</label>
+    <div>
+      <span id="multiple-inputs">
+        <input type="number" class="multiple">
+        <input type="number" class="multiple">
+      </span>
+      <button type="button" id="add-more">Add More</button>
+    </div>
+    <div>
+      <button type="button" id="submit-multiple" class="submit-button">Get Facts</button>
+    </div>
+  </div>
+  <div id="multiple-number-display"></div>
+
+  <h2>Get 4 Facts About a Number:</h2>
+  <div class="form-group">
+    <label for="four-facts">Number:</label>
+    <div>
+      <input id="four-facts" type="number">
+    </div>
+    <div>
+      <button type="button" id="submit-for-four" class="submit-button">Get Facts</button>
+    </div>
+  </div>
+  <div id="four-facts-display"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="number-facts.js"></script>
+</body>
+</html>

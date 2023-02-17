@@ -1,0 +1,25 @@
+.form-group {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.form-group > label {
+  grid-column: 1 / 2;
+}
+
+.form-group > input {
+  grid-column: 2 / 3;
+}
+
+.form-group > div {
+  grid-column: 2 / 3;
+}
+
+input[type="number"] {
+  width: 5rem;
+  margin: 0 0.15rem;
+}
+
+button:not(#add-more) {
+  margin: 0.3rem 0.15rem;
+}

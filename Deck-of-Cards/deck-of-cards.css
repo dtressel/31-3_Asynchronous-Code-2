@@ -1,0 +1,27 @@
+#card-pile {
+  position: relative;
+}
+
+#card-pile > img {
+  position: absolute;
+}
+
+.buttons-div {
+  display: flex;
+  justify-content: center;
+  margin: 0.8rem;
+}
+
+#card-pile-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+#card-pile {
+  width: 226px;
+}
+
+.visibility-hidden {
+  visibility: hidden;
+}
